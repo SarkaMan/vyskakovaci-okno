@@ -9,6 +9,8 @@ body {
   background-color: #b4eafb;
   border-radius: 10px;
   font-size: 30px;
+  margin-left: 200px;
+  position: relative;
 }
 
 button {
@@ -20,11 +22,34 @@ button {
   color: black;
   width: 30px;
   border-radius: 3px;
+  position:absolute;
+  right:0;
 }
 
 .ok {
   background-color: #28a745;
   color: white;
+  position:absolute;
+  left:calc(50% - 40px);
+  top:calc(50% - 12.5px);
+
 }
 
 /* sem přijdou tvoje styly */
+.help{
+  width: 25vw;
+  height: 20vh;
+  border: 15px solid #f35b9f;
+  background-color: #fbb4dc;
+  border-radius: 10px;
+  font-size: 30px;
+  margin-left: 200px;
+  position: sticky;
+  top:0;
+}
+.button-help{
+  background-color: red;
+  margin:30px;
+  width: 20%;
+ 
+}
